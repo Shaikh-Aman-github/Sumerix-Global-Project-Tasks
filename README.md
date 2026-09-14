@@ -6,6 +6,24 @@ This repository contains my work for **Task 1** of the **Cyber Security & Ethica
 
 Task 1 focuses on cybersecurity foundations, Linux administration, networking fundamentals, virtualization, Python for security, Git & GitHub, and secure cybersecurity laboratory setup.
 
+
+## Setup & Run Instructions
+
+### 1. Prerequisites
+
+Before running the project, make sure the following are installed:
+
+- Kali Linux
+- Python 3.12 or higher
+- Git
+- VS Code (optional)
+- VirtualBox or VMware (if running Kali as a virtual machine)
+
+Check Python version:
+
+```bash
+python3 --version
+
 ---
 
 ## Task Information
