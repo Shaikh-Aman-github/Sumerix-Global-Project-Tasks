@@ -2,83 +2,64 @@
 
 ## Secure Network Asset Inventory & System Information Scanner
 
-This repository contains my work for **Task 1** of the **Cyber Security & Ethical Hacking Internship**.
+This project is developed as part of the **Cyber Security & Ethical Hacking Internship**.
 
-Task 1 focuses on cybersecurity foundations, Linux administration, networking fundamentals, virtualization, Python for security, Git & GitHub, and secure cybersecurity laboratory setup.
-
-
-## Setup & Run Instructions
-
-### 1. Prerequisites
-
-Before running the project, make sure the following are installed:
-
-- Kali Linux
-- Python 3.12 or higher
-- Git
-- VS Code (optional)
-- VirtualBox or VMware (if running Kali as a virtual machine)
-
-Check Python version:
-
-```bash
-python3 --version
+The objective of Task 1 is to build a secure cybersecurity lab environment, understand Linux administration and networking fundamentals, and develop a Python-based utility for collecting system and network information.
 
 ---
 
-## Task Information
+## 📌 Task Information
 
 | Item | Details |
 |---|---|
-| Internship Domain | Cyber Security & Ethical Hacking |
 | Task | Task 1 |
-| Difficulty | Beginner |
+| Domain | Cyber Security & Ethical Hacking |
 | Project | Secure Network Asset Inventory & System Information Scanner |
 | Operating System | Kali Linux |
-| Virtualization | Oracle VirtualBox |
 | Programming Language | Python |
+| Python Version | 3.12+ |
+| Virtualization | VirtualBox |
+| Version Control | Git & GitHub |
 
 ---
 
-## 1. Task Objectives
+# 🎯 Objectives
 
-The objectives of Task 1 are:
+The main objectives of this task are:
 
-- Understand cybersecurity fundamentals.
-- Understand ethical hacking principles and responsibilities.
-- Build a secure cybersecurity laboratory.
-- Install and configure Kali Linux.
-- Understand virtualization and virtual machines.
-- Learn Linux filesystem navigation and terminal commands.
-- Manage users, groups, and file permissions in Linux.
+- Understand basic cybersecurity concepts.
+- Set up a secure and isolated cybersecurity lab.
+- Install and configure Kali Linux using virtualization.
+- Learn essential Linux administration commands.
 - Understand networking fundamentals.
-- Learn IPv4 addressing and subnet basics.
 - Understand the OSI and TCP/IP models.
-- Understand common networking protocols and ports.
-- Use Git and GitHub for version control.
-- Develop a Python-based security utility.
-- Generate a structured system inventory report.
+- Learn about IP addresses, MAC addresses, DNS, DHCP and common protocols.
+- Use Git and GitHub for project version control.
+- Develop a Python-based system and network information scanner.
+- Generate a system inventory report.
+- Document the complete project and lab environment.
 
 ---
 
-## 2. Cybersecurity Lab Environment
+Run this cmd : python3 src/main.py
 
-The cybersecurity laboratory uses Kali Linux running inside Oracle VirtualBox.
+# 🖥️ Lab Environment
 
-### Lab Architecture
+The project is designed to run inside a virtualized cybersecurity laboratory.
 
 ```text
 Host Operating System
-        |
-        v
+        │
+        ▼
     VirtualBox
-        |
-        v
-   Kali Linux VM
-        |
-        +-------------------+
-        |                   |
-       NAT             Host-Only
-        |                   |
-        v                   v
-    Internet           Isolated Lab
+        │
+        ▼
+    Kali Linux VM
+        │
+        ├── NAT Adapter
+        │      │
+        │      └── Internet Access
+        │
+        └── Host-Only Adapter
+               │
+               └── Isolated Lab Network
