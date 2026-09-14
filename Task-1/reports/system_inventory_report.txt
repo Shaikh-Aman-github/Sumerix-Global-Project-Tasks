@@ -1,0 +1,20 @@
+============================================================
+SECURE NETWORK ASSET INVENTORY REPORT
+============================================================
+
+SYSTEM INFORMATION
+------------------------------------------------------------
+Hostname: kali
+Operating System: Linux
+Os Release: 6.18.5+kali-amd64
+Os Version: #1 SMP PREEMPT_DYNAMIC Kali 6.18.5-1kali1 (2026-01-19)
+Architecture: x86_64
+Python Version: 3.13.11
+Scan Time: 2026-09-14 22:19:56
+
+NETWORK INFORMATION
+------------------------------------------------------------
+Primary Ip: 10.0.2.15
+Mac Address: 08:00:27:5f:c0:7e
+Hostname: kali
+Interfaces: [{'name': 'lo'}, {'name': 'eth0'}]
